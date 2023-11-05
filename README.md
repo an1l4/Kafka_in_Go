@@ -6,3 +6,7 @@ Kafka operates publish-subscribe model.
 Producers publish data and consumers subscribe receive and process these data.
 
 Kafka is primarily used to build  real time streaming data pipelines and applications that adapt to data streams.
+
+docker compose up -d
+cd /consumer/cmd -> go run main.go
+cd /producer/cmd -> go run main.go
